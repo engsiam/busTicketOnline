@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+        <h2 class="font-semibold text-xl text-white leading-tight">
             {{ __('Fares') }}
         </h2>
     </x-slot>
@@ -42,7 +42,7 @@
                                 <th scope="col" class="px-6 py-3">
                                     Effective Date
                                 </th>
-                                
+
                                 <th scope="col" class="px-6 py-3">
                                     Created At
                                 </th>
