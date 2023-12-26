@@ -1,4 +1,4 @@
-# Tiki
+# busticketonline
 
 Online ticket booking application (Bus)
 
@@ -6,18 +6,18 @@ Online ticket booking application (Bus)
 
 ### Admin Login
 
-- Email: `masum@tiki.com`
+- Email: `admin@admin.com`
 - Password: `12345678`
 
 ### Passenger Login
 
-- Email: `passenger@tiki.com`
+- Email: `passenger@pass.com`
 - Password: `12345678`
 
 ## Installation
 
-- Run `git clone https://github.com/masumbillah21/tiki.git`
-- Run `cd tiki`
+- Run `git clone https://github.com/engsiam/busTicketOnline`
+- Run `cd busticketonline`
 - Run `composer install`
 - Run `cp .env.example .env`
 - Create a database
