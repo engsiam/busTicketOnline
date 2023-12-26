@@ -8,7 +8,7 @@
             </a>
           </div>
           <div class="hidden sm:ml-6 sm:block">
-            <div class="flex space-x-4">
+            <div class="flex space-x-6 items-center">
               <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'bg-teal-900' : ''}} text-white rounded-md px-3 py-2 text-sm font-medium">Book A Trip</a>
 
             </div>
