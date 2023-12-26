@@ -3,11 +3,11 @@
     <p class="text-center text-red-700 text-4xl py-4">Admin Aceess: Email: admin@admin.com & pass: 12345678</p>
     <p class="text-center text-red-700 text-4xl py-4">Passenger Aceess: Email: passenger@pass.com & Pass: 12345678</p>
     <div class="flex sm:justify-center">
-        
+
         <div class="w-full px-6 py-2 overflow-hidden bg-[#4dd0e1] shadow-md md:max-w-6xl sm:rounded-lg">
             <form class="w-full" action="{{route('search')}}" method="GET">
                 <div class="flex flex-wrap items-center">
-                    
+
                     <div class="w-full px-3 md:w-1/5">
                         <x-input-label for="trip-date" :value="__('Trip Date *')" />
                         <div class="relative max-w-sm">
